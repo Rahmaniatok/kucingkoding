@@ -24,6 +24,10 @@ body {
   background-repeat: no-repeat;
   font-family: 'Poppins', sans-serif;
 }
+
+main {
+  padding: 50px;
+}
 h1 {
   color: white;
   font-size: 40px;
@@ -34,5 +38,13 @@ h2 {
   font-size: 20;
   font-weight: light;
 }
+main {
+  display: flex;
+  justify-content: space-between;
+}
+* {
+  padding: 20px;
+}
+
 
 
