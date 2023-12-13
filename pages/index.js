@@ -1,10 +1,14 @@
-import Image from 'next/image'
-import Head from 'next/head'
+import Image from 'next/image';
+import Head from 'next/head';
+import Navbar from './Navbar';
 
 
 export default function Home (){
   return(
     <main className="flex flex-col jarak">
+      <div>
+        <Navbar/>
+      </div>
       <Head>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
       </Head>
